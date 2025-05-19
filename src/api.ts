@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = 'http://auragem.zeabur.app/api';
 
 export async function requestNonce(): Promise<string> {
   const res = await axios.post(`${API_BASE}/login`, {});
